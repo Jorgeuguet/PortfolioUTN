@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Adamina&family=Days+One&family=Rufina:wght@700&display=swap');
+
+@media screen and (min-width: 480px) and (max-width: 1080px){
+    .Header{
+        display: flex;
+        justify-content:space-between;
+        padding: 50px 0;
+        align-items:center;
+        background-image: url(../img/struckaxiom.png);
+        background-position: center;
+        background-size: 100px;
+    }
+    
+    
+}
+.Header{
+    display: flex;
+    justify-content:space-between;
+    padding: 50px 0;
+    align-items:center;
+    background-image: url(../img/struckaxiom.png);
+    background-position: center;
+    background-size: 100px;
+}
+.Header{
+    padding-left: 700px;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Adamina', serif;
+    font-family: 'Days One', sans-serif;
+    font-family: 'Rufina', serif;
+
+}
+.Col> p{
+    font-size: 150px;
+}
+.Col> h1{
+    text-align: center;
+}
+.Nav,.a{
+    text-align: center;
+    color:dodgerblue;
+    margin:15px;
+}

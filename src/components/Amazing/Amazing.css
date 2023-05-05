@@ -1,0 +1,42 @@
+@media screen and (min-width: 480px) and (max-width: 1080px){
+    .Amazing{
+        height: 150vh;
+        background-image: linear-gradient(rgb(233, 233, 233), rgb(183, 183, 187) );
+    }    
+    
+    
+}
+
+.Amazing{
+    height: 150vh;
+    background-image: linear-gradient(rgb(233, 233, 233), rgb(183, 183, 187) );
+    
+}
+.W ,.A{
+    display: flex;
+    justify-content: center;
+    font-family: 'Adamina', serif;
+    font-family: 'Days One', sans-serif;
+    
+}
+.W{
+    justify-content: center;
+    color: rgb(82, 99, 248);
+    border-right: solid 20px blue;
+    border-left: solid 20px blue;
+    height: 20px;
+    width: 150px;
+    font-size: small;
+    margin: 0px auto;
+}
+.A{
+    padding: 15px;
+    font-size: 30px;
+    
+}
+.Ama{
+    display: flex;
+    width: 250%;
+    height: 90%;
+}
+

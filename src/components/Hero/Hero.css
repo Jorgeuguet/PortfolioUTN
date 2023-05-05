@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Adamina&family=Days+One&family=Rufina:wght@700&display=swap');
+@media screen and (min-width: 480px) and (max-width: 1080px){
+
+    .Hero{
+        background-color: rgb(212, 221, 221);
+        height: 150vh;
+        background-image: url(../img/struckaxiom.png);
+        background-position: center;
+        background-size: 100px;
+        
+    }
+    
+    
+    
+    
+}
+
+.Hero{
+    background-color: rgb(212, 221, 221);
+    height: 150vh;
+    background-image: url(../img/struckaxiom.png);
+    background-position: center;
+    background-size: 100px;
+    
+}
+.Encabezado1,.Encabezado2{
+    font-family: 'Adamina', serif;
+    font-family: 'Days One', sans-serif;
+    
+}
+.Encabezado1{
+    justify-content: center;
+    color: rgb(82, 99, 248);
+    border-right: solid 20px blue;
+    border-left: solid 20px blue;
+    height: 20px;
+    width: 150px;
+    font-size: small;
+    align-items: flex-start;
+    margin: 0px auto;
+    display: flex;
+    font-size: small;
+}
+.Encabezado2{
+    display: flex;
+    padding: 15px;
+    font-size: 50px;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 30px
+}
+.img4{
+    display: flex;
+    height: 10%;
+    width: 40%;
+}
+
+
+

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Adamina&family=Days+One&family=Rufina:wght@700&display=swap');
+
+.Testimonial{
+    padding: 50vh;
+    background-color: rgb(227, 230, 231);
+}
+.Testimonial,.h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Adamina', serif;
+    font-family: 'Days One', sans-serif;
+    justify-content:space-between;
+    font-size: small;
+    
+    
+}
+@media screen and (min-width: 480px) and (max-width: 1080px){
+    .Testimonial{padding: 50vh;
+        background-color: rgb(227, 230, 231);}
+    .Testimonial,.h1{ display: flex;
+        justify-content: center;
+        font-family: 'Adamina', serif;
+        font-family: 'Days One', sans-serif;
+        justify-content:space-between;
+        font-size: small;}
+}

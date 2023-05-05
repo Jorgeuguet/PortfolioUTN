@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Adamina&family=Days+One&family=Rufina:wght@700&display=swap');
+@media screen and (min-width: 480px) and (max-width: 1080px){
+
+    .FormularioContacto{
+        height: 150vh;
+        background-image: linear-gradient(rgb(233, 233, 233), rgb(183, 183, 187) );
+    }
+}
+.FormularioContacto{
+    height: 150vh;
+    background-image: linear-gradient(rgb(233, 233, 233), rgb(183, 183, 187) );
+}
+.Formulario{
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2px;
+}

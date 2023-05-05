@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Adamina&family=Days+One&family=Rufina:wght@700&display=swap');
+@media screen and (min-width: 480px) and (max-width: 1080px){
+    .Navbar{
+        height: 80px;
+        display: flex;
+        align-items: center;
+        background-color: rgb(212, 221, 221);
+        justify-content: space-around;
+        font-family: 'Adamina', serif;
+        font-family: 'Days One', sans-serif;
+        font-family: 'Rufina', serif;
+    }
+}
+.Navbar{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(212, 221, 221);
+    justify-content: space-around;
+    font-family: 'Adamina', serif;
+    font-family: 'Days One', sans-serif;
+    font-family: 'Rufina', serif;
+
+}
+.Navbar>.Nombre{
+    font-weight:900px;
+    font-size: 30px;
+    margin: 15px;
+    color: rgb(73, 69, 80);
+}
+.Navbar>.NavItems> a{
+    color: rgb(12, 12, 12);
+    font-size: 15px;
+    text-decoration: none;
+    margin: 25px;
+    position: relative;
+    opacity: 0.9;
+}
+.Navbar>.NavItems> a:hover{
+    opacity: 1;
+}
+.Navbar>.NavItems> a::before{
+    content: "";
+    position:absolute;
+    left: 0;
+    bottom: -10px;
+    width: 0;
+    height: 2px;
+    background: rgb(7, 7, 6);
+    transition: all .45s;
+}
+.Navbar>.NavItems> a:hover::before{
+    width: 100%;
+}
+
+.Redes a{
+    color: rgb(75, 84, 92);
+    font-size:medium;
+    margin: 15px;
+    
+}
+.Fa,.Tw,.In{
+    border-right: solid 2px black;
+    padding-right: 25px;
+}

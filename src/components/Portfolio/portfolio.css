@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Adamina&family=Days+One&family=Rufina:wght@700&display=swap');
+
+.Cards{
+    background-color: rgb(227, 236, 236);
+    height: 150vh;
+    
+}
+.T1,.T2{
+    display: flex;
+    justify-content: center;
+    font-family: 'Adamina', serif;
+    font-family: 'Days One', sans-serif;
+    
+}
+.T1{
+    justify-content: center;
+    color: rgb(82, 99, 248);
+    border-right: solid 20px blue;
+    border-left: solid 20px blue;
+    height: 20px;
+    width: 150px;
+    font-size: small;
+    align-items: center;
+    margin: 0px auto;
+    
+}
+.T2{
+    padding: 15px;
+    font-size: 30px;
+}
+.card{
+    padding: 20vh;
+}
+.Fondo{
+    display: flex;
+    padding: auto;
+    justify-content: center;
+    margin:auto;
+    background-color:rgb(212, 221, 221) ;
+}
+.Fondo{
+    display: flex;
+    padding: auto;
+    justify-content: center;
+    align-content: center;
+    margin:auto;
+}
+@media screen and (min-width: 480px) and (max-width: 1080px){
+    .Cards{
+        background-color: rgb(227, 236, 236);
+        height: 150vh;
+        
+    }
+    .T1,.T2{
+        display: flex;
+    justify-content: center;
+    font-family: 'Adamina', serif;
+    font-family: 'Days One', sans-serif;
+    }
+    .T1{
+        justify-content: center;
+        color: rgb(82, 99, 248);
+        border-right: solid 20px blue;
+        border-left: solid 20px blue;
+        height: 20px;
+        width: 150px;
+        font-size: small;
+        align-items: center;
+        margin: 0px auto;
+        
+    }
+    .Fondo{
+        display: flex;
+        padding: auto;
+        justify-content: center;
+        margin:auto;
+        background-color:rgb(212, 221, 221) ;}
+}
